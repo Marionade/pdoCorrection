@@ -48,8 +48,8 @@ if (isset($_POST['title']) && isset($_POST['content']) && isset($_POST['author']
     ?>
     <form method="post">
         <input type="text" name="title" placeholder="title">
-        <input type="text" name="content" placeholder="content">
         <input type="text" name="author" placeholder="author">
+        <textarea name="content"></textarea>
         <button type="submit">envoyer</button>
     </form>
 </body>
